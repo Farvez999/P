@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-part {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-weight {
+    width: 50%;
+    padding: 3%;
+}
+
+.half-weight img {
+    width: 100%;
+}
+
+.orange-clor {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.experience {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.experience-item {
+    width: 30%;
+    margin-left: 3%;
+    margin-block-end: 3%;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#full {
+    border-left: 7px solid green;
+}
+
+#mern {
+    border-left: 7px solid red;
+}
+
+#web {
+    border-left: 7px solid yellow;
+}
+
+footer p {
+    text-align: center;
+}
